@@ -1,0 +1,105 @@
+@media (max-width:575px) {
+    .header-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        height: auto;
+
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        height: 90px;
+        width: 80%;
+
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+        font-weight: normal;
+
+    }
+
+    .navbar ul li {
+        padding: 5px;
+    }
+
+    .section h1 {
+        font-size: 40px;
+        
+    }
+
+    .section-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .section-container .box {
+        width: 90%;
+        height: 200px;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .contact {
+        width: 100%;
+        height: 830px;
+    }
+
+    .contact h1 {
+        width: 100%;
+    }
+
+    .contact-container {
+        width: 90%;
+
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    iframe {
+        width: 430px;
+
+    }
+
+    label {
+        width: 50%;
+    }
+    button
+    {
+        width: 100%;
+        height: 50px;
+        /* margin-left: 25%; */
+        margin-top: 20px;
+    }
+
+    .footer-container {
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .footer-container .box {
+        width: 100%;
+        height: 230px;
+        padding-left: 40px;
+    }
+
+    .footer-container .box p {
+        width: 40%;
+    }
+
+}
